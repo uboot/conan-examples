@@ -7,4 +7,6 @@ class App1Conan(ConanFile):
     name = "app1"
     version = "0.2"
     settings = "build_type"
+
+    # requirements
     requires = "libd/[>0.0 <1.0]@user/testing"
