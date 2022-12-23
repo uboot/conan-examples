@@ -6,5 +6,5 @@ required_conan_version = ">=1.28"
 class App1Conan(ConanFile):
     name = "app1"
     version = "0.2"
-    settings = "build_type", "os"
-    requires = "libd/[>0.0 <1.0]@user/testing"
+    settings = "build_type"
+    requires = "libd/1.5@user/testing"
